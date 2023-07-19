@@ -63,3 +63,24 @@
     text-decoration: none;
     color: #3C354F; 
 }
+.follow-btn{
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    color: #0B0223;
+}
+
+/* responsive media queries */
+/* mobile devise */
+@media screen and (max-width:425px) {
+    .nav-container {
+        width: 15%;
+        flex-direction: column;
+    }
+    .nav-items-container{
+        flex-direction: column;
+    }
+    
+}
+    
