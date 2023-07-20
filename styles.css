@@ -207,14 +207,52 @@
     height: 427px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+   
+
+.game-container-1{
+    padding-top: 150px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
+} 
+.game-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .game-1{
     display: flex;
+    gap: 20px;
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
 }
+.game-photo{
+    width: 60px;
+    height: 60px;
 
+}
+.game-text{
+    justify-content: center;
+    text-align: center;
+    color: #0B0223;
+    font-size: 10px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.game-text-pink{
+    justify-content: center;
+    text-align: center;
+    color: #F948B2;
+    font-size: 10px;
+    font-weight: 600; 
+    padding-top: 20px;
+}
 /* responsive media queries */
 /* mobile devise */
 @media screen and (max-width:576px) {
@@ -275,6 +313,10 @@
     }
     .play-photo{
         flex-direction: column-reverse;
+    }
+    .game-1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
    
