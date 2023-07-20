@@ -201,6 +201,19 @@
     position: relative;
     bottom: -100px;
 }
+/* <!-- main container start --> */
+.main-container{
+    width: 1920px;
+    height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.game-1{
+    display: flex;
+}
 
 /* responsive media queries */
 /* mobile devise */
